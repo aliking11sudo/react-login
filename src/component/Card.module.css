@@ -1,0 +1,18 @@
+.img{
+    width: 40%;
+    height: 40%;
+    animation:  rotate 10s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.btnsub{
+    padding: 2rem;
+}
