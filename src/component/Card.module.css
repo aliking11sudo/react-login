@@ -1,7 +1,8 @@
 .img{
     width: 40%;
     height: 40%;
-    animation:  rotate 10s infinite;
+    animation:  rotate 7s infinite;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-fill-mode: backwards;
 }
